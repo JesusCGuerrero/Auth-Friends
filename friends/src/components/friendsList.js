@@ -10,10 +10,10 @@ const FriendsList = () => {
     const [friends, setFriends] = useState([])
 
     const getfriends = () => {
-        console.log('Hi from getfriends', localStorage)
+        // console.log('Hi from getfriends', localStorage)
         axiosWithAuth().get('http://localhost:5000/api/friends')
         .then(res => {
-            console.log('Here Is The Friends List:', res)
+            // console.log('Here Is The Friends List:', res)
             setFriends(res.data)
         })
         .catch(err => {
