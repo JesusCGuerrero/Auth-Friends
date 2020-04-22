@@ -6,6 +6,7 @@ import Home from './components/home'
 import Login from './components/login'
 import FriendsList from './components/friendsList'
 import PrivateRoute from './components/ProtectedRoute'
+import AddFriend from './components/addFriend'
 
 function App() {
   return (
